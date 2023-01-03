@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <footer className={styles.footer}>
       <a
-        href="https://github.com/dejmedus"
+        href="https://github.com/dejmedus/portfolio-template"
         target="_blank"
         rel="noopener noreferrer"
       >
