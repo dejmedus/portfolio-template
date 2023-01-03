@@ -1,0 +1,37 @@
+.filter {
+  width: 80vw;
+  display: grid;
+  gap: 0.5em;
+  margin: 1em 0;
+}
+.otherStack {
+  font-size: 0.8rem;
+  opacity: 50%;
+  text-align: right;
+  margin-right: 9em;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(330px, max-content));
+  grid-gap: 16px;
+  justify-content: center;
+  width: 100%;
+}
+
+.email {
+  position: fixed;
+  bottom: 2em;
+  right: 2em;
+  display: flex;
+  place-items: center;
+  padding: 0.6em;
+  border-radius: 64px;
+  background-color: #9cc5ffcf;
+  color: rgba(255, 255, 255, 0.738);
+  box-shadow: rgba(0, 0, 0, 0.083) 0px 6px 8px, rgba(0, 0, 0, 0.111) 0px 5px 5px;
+}
+.email:hover {
+  color: white;
+  background-color: #9cc5ff;
+}

@@ -1,0 +1,25 @@
+.footer {
+  display: flex;
+  flex: 1;
+  padding: 2rem 0;
+  border-top: 1px solid #eaeaea;
+  justify-content: center;
+  align-items: center;
+  line-height: 2em;
+}
+
+.footer a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  opacity: 90%;
+}
+.footer a:hover {
+  text-decoration: underline;
+}
+@media (prefers-color-scheme: dark) {
+  .footer {
+    border-color: #222;
+  }
+}
