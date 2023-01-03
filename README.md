@@ -14,5 +14,5 @@ Feel free to fork, edit, and use this template to show off your own work!
 1. fork the repo
 2. ```git clone``` local repo
 3. ```cd portfolio-template```
-4. Add your portfolio projects to [assets/data/cards.js](assets/data/cards.js) and add images to[assets/images/] 
+4. Add portfolio projects to [assets/data/cards.js](assets/data/cards.js), card images to [assets/images], and your information to [assets/data/settings.js](assets/data/cards.js)
 5. See [the Next.js README.md](NEXT-README.md) for run instructions
