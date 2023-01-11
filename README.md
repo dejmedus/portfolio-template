@@ -1,5 +1,5 @@
 ## Hi all 👋
-### A portfolio template built with Next.js 13 and CSS. See it in action [here.](https://portfolio-dejmedus.vercel.app)
+### A portfolio template built with Next.js 13 and CSS. See it in action [here.](https://www.juliab.dev)
 
 > *The Next.js 13 app directory, used in this repo, is currently in [beta](https://beta.nextjs.org/docs) and may not be stable.* 
 
