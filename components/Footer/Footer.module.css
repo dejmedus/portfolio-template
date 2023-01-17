@@ -2,10 +2,12 @@
   display: flex;
   flex: 1;
   padding: 2rem 0;
-  border-top: 1px solid #eaeaea;
+  gap: 1em;
+  background-color: rgb(39, 39, 39);
   justify-content: center;
   align-items: center;
   line-height: 2em;
+  margin-top: 2em;
 }
 
 .footer a {
@@ -13,12 +15,30 @@
   justify-content: center;
   align-items: center;
   opacity: 90%;
+  color: white;
+  font-weight: 600;
 }
 .footer a:hover {
   text-decoration: underline;
 }
-@media (prefers-color-scheme: dark) {
-  .footer {
-    border-color: #222;
+.contact {
+  display: none !important;
+}
+
+@media only screen and (max-width: 400px) {
+  .footer a {
+    font-weight: 800;
+    padding: 0.4em 1em;
+    border-radius: 12px;
+    opacity: 100%;
+    background-color: #4895ef20;
+    color: #4895ef;
+    border: 1px solid #4895ef;
+  }
+  .footer a:hover {
+    text-decoration: none;
+  }
+  .contact {
+    display: flex !important;
   }
 }

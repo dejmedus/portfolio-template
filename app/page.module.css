@@ -53,15 +53,6 @@
   opacity: 90%;
 }
 
-@media (max-width: 600px) {
-  .titleContainer {
-    width: 100vw;
-  }
-  .main {
-    padding: 2rem 0;
-  }
-}
-
 @media (prefers-color-scheme: dark) {
   .titleContainer {
     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cg fill='%23787878' fill-opacity='0.11'%3E%3Cpolygon fill-rule='evenodd' points='8 4 12 6 8 8 6 12 4 8 0 6 4 4 6 0 8 4'/%3E%3C/g%3E%3C/svg%3E");
@@ -71,14 +62,14 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-    text-fill-color: transparent;
+    fill: transparent;
   }
   .title a {
     background: linear-gradient(180deg, #7d4c95c0 0%, #af74cd 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-    text-fill-color: transparent;
+    fill: transparent;
   }
   .title a:hover,
   .title a:focus {
@@ -90,5 +81,31 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
+  }
+}
+@media (max-width: 600px) {
+  .titleContainer {
+    width: 100vw;
+  }
+  .main {
+    padding: 2rem 0;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .container {
+    padding: 0;
+  }
+  .main {
+    padding: 0;
+  }
+
+  .titleContainer {
+    padding: 0;
+  }
+
+  .title {
+    font-size: 3rem;
+    margin: 5rem 0 0.6rem 0;
   }
 }

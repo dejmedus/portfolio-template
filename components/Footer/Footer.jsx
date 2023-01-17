@@ -9,7 +9,13 @@ const Footer = () => {
         target="_blank"
         rel="noopener noreferrer"
       >
-        ❤️ Use this template
+        Use this template
+      </a>
+      <a
+        className={styles.contact}
+        href="mailto:email96123@gmail.com"
+      >
+        Contact Me
       </a>
     </footer>
   )
