@@ -8,7 +8,7 @@ export const Words = () => {
   const el = useRef(null);
   // Create reference to store the Typed instance itself
   const typed = useRef(null);
-  const words = ["beautiful", "useful", "accessible", "secure", "performant"];
+  const words = ["beautiful", "useful", "accessible", "secure", "performant", ""];
 
   useEffect(() => {
     const options = {
