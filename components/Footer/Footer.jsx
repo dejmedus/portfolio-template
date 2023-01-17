@@ -1,4 +1,5 @@
 import styles from './Footer.module.css'
+import { email } from '../../assets/data/settings'
 
 
 const Footer = () => {
@@ -13,7 +14,7 @@ const Footer = () => {
       </a>
       <a
         className={styles.contact}
-        href="mailto:email96123@gmail.com"
+        href={`mailto:${email}`}
       >
         Contact Me
       </a>
