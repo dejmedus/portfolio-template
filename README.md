@@ -11,8 +11,8 @@ Feel free to fork, edit, and use this template to show off your own work!
 - [Hero Patterns](https://heropatterns.com)
 
 ### Setup
-1. fork the repo
-2. ```git clone``` local repo
-3. ```cd portfolio-template```
+1. Select 'Use this template' above and create a new repository
+2. ```git clone <your-generated-repos-url>```
+3. ```cd <your-generated-repos-name>```
 4. Add portfolio projects to [assets/data/cards.js](assets/data/cards.js), card images to [assets/images](assets/images), and your information to [assets/data/settings.js](assets/data/settings.js)
 5. See [the Next.js README.md](NEXT-README.md) for run instructions
