@@ -3,7 +3,7 @@
 
 > *The Next.js 13 app directory, used in this repo, is currently in [beta](https://beta.nextjs.org/docs) and may not be stable.* 
 
-Feel free to fork, edit, and use this template to show off your own work!
+Feel free to use this template to show off your own work!
 
 ### Built with
 - [Nextjs 13](https://beta.nextjs.org/docs/installation)
